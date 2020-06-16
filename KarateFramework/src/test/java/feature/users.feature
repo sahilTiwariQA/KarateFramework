@@ -7,6 +7,7 @@ Background:
 Scenario: List of all the users starts with name given in parameter
 	Given path 'public-api/users'
 	And param first_name = 'john'
+	And param status = 'inactive'
 	When method get
 	Then status 200
 	And def userResponse = response
