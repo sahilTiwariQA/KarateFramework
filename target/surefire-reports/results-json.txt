@@ -1,0 +1,1 @@
+{"features":1,"ignored":0,"efficiency":0.5346957004972215,"failures":{"src.test.java.feature.usersDetails":"usersDetails.feature:6 - \njava.net.UnknownHostException: reqres.in"},"totalTime":1828.1246,"threads":1,"scenarios":1,"failed":1,"passed":0,"version":"0.9.5","elapsedTime":3419.0}

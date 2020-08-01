@@ -1,0 +1,22 @@
+<testsuite failures="1" name="src/test/java/feature/usersDetails.feature" skipped="0" tests="1" time="1.828125">
+  <testcase classname="src.test.java.feature.usersDetails" name="Get call details" time="1.828125">
+    <failure message="usersDetails.feature:6 - &#10;java.net.UnknownHostException: reqres.in">Given url 'https://reqres.in/api/users/2' ................................. passed
+When method GET ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: usersDetails.feature:6 - 
+java.net.UnknownHostException: reqres.in&#13;
+	at ✽.When method GET (usersDetails.feature:6)&#13;
+
+Then status 200 ........................................................... skipped
+Then print response ....................................................... skipped
+* def name = response.data.first_name ..................................... skipped
+Then print name ........................................................... skipped
+* def expectedOutput = read('response.json') .............................. skipped
+And match response == expectedOutput ...................................... skipped
+* def expectedOutput2 = read('response2.json') ............................ skipped
+And match response == expectedOutput2 ..................................... skipped
+* def job_code = response.data.job_code ................................... skipped
+And match response.data.job_code == job_code .............................. skipped</failure>
+  </testcase>
+</testsuite>
